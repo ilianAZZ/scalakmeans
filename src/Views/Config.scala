@@ -137,7 +137,7 @@ class Config(controller: Controller) extends JPanel with ColorsConstants {
 
     }
     def bottomRightPane():Unit = {
-        content.add(new Panel("Data") {{
+        content.add(new Panel("") {{
 
         }})
     }
